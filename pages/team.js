@@ -1,6 +1,5 @@
-// import React from "react";
-import Image from "next/image";
 import Head from "next/head";
+import Image from "next/image";
 
 const people = [
   {
@@ -8,14 +7,14 @@ const people = [
     role: "Ekspert i maskinlæring",
     twitterUrl: "#",
     linkedinUrl: "#",
-    imageUrl: "/../public/frans_grayscale.png",
+    imageUrl: "/fz.png",
   },
   {
     name: "Dominik Zdyb",
     role: "Data scientist",
     twitterUrl: "#",
     linkedinUrl: "#",
-    imageUrl: "/../public/dominik_grayscale_400x400.png",
+    imageUrl: "/dz.png",
   },
 ];
 
@@ -26,7 +25,6 @@ export default function Team() {
         <title>Sindri</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-
       <div className="mx-auto py-12 px-4 max-w-7xl sm:px-6 lg:px-8 lg:py-24">
         <div className="space-y-12">
           <div className="space-y-5 sm:space-y-4 md:max-w-xl lg:max-w-3xl xl:max-w-none">
