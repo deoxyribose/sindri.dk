@@ -21,14 +21,14 @@ export default function Home() {
         <nav>
           <ul className="flex text-gray-200 bg-gray-900 w-full max-w-md space-x-6">
             <li>
-              <div className="text-gray-300 hover:bg-gray-700 hover:text-white rounded-lg font-medium md:text-xl">
+              <div className="hover:text-white rounded-lg font-medium md:text-xl border-2">
                 <Link href="/eksempler">
                   <a className="flex py-2 px-6">Eksempler</a>
                 </Link>
               </div>
             </li>
             <li>
-              <div className="text-gray-300 hover:bg-gray-700 hover:text-white rounded-lg font-medium md:text-xl">
+              <div className="hover:text-white rounded-lg font-medium md:text-xl border-2">
                 <Link href="/team" prefetch>
                   <a className="flex py-2 px-6">Team</a>
                 </Link>
