@@ -1,6 +1,6 @@
 import Head from "next/head";
 import Image from "next/image";
-import Link from "next/link";
+import Nav from "../components/Nav";
 
 const people = [
   {
@@ -8,14 +8,14 @@ const people = [
     role: "Ekspert i maskinlæring",
     twitterUrl: "https://twitter.com/FZdyb",
     linkedinUrl: "https://www.linkedin.com/in/frans-zdyb-84a7a975/",
-    imageUrl: "/fz.png",
+    imageUrl: "/fz.webp",
   },
   {
     name: "Dominik Zdyb",
     role: "Data analytiker",
     twitterUrl: "https://twitter.com/dominik_zdyb",
     linkedinUrl: "https://www.linkedin.com/in/dzgreen/",
-    imageUrl: "/dz.png",
+    imageUrl: "/dz.webp",
   },
 ];
 
@@ -26,39 +26,16 @@ export default function Team() {
         <title>Sindri</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
+      <Nav />
+
       <div className="mx-auto py-12 px-4 max-w-7xl sm:px-6 lg:px-8 lg:py-24">
         <div className="space-y-12 lg:grid lg:grid-cols-3 lg:gap-8 lg:space-y-0">
-          <div className="flex flex-col space-y-4">
-            <h2 className="flex-auto text-3xl font-extrabold tracking-tight sm:text-4xl">Kernen</h2>
-            <p className="flex-auto text-xl text-gray-200">
+          <div className="flex flex-col space-y-2">
+            <h2 className="text-2xl font-bold tracking-tight pb-4">Team</h2>
+            <p className="text-xl text-gray-200">
               Siden november 2021 har vi arbejdet sammen om at levere dataløsninger til danske virksomheder og organisationer. Før det har vi oparbedjet en solid balast af erfaringer fra både danske og udenlandske virksomheder og NGO'er. Læs under
-              eksempler hvad vi har erfaring med og hvad vi kan tilbyde dig.{" "}
+              Cases hvad vi har erfaring med og hvad vi kan tilbyde dig.{" "}
             </p>
-            <nav>
-              <div className="flex flex-row">
-                <ul className="flex text-gray-200 bg-gray-900 w-full max-w-md space-x-6">
-                  <li>
-                    <div className="hover:text-white rounded-lg font-medium md:text-xl border-2">
-                      <Link href="/" prefetch>
-                        <a className="flex items-center py-2 px-6">
-                          <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M11 17l-5-5m0 0l5-5m-5 5h12" />
-                          </svg>
-                          &nbsp; Hjem
-                        </a>
-                      </Link>
-                    </div>
-                  </li>
-                  <li>
-                    <div className="hover:text-white rounded-lg font-medium md:text-xl border-2">
-                      <Link href="/eksempler">
-                        <a className="flex py-2 px-6">Eksempler</a>
-                      </Link>
-                    </div>
-                  </li>
-                </ul>
-              </div>
-            </nav>
           </div>
           <div className="lg:col-span-2">
             <ul role="list" className="space-y-12 sm:grid sm:grid-cols-2 sm:gap-x-6 sm:gap-y-12 sm:space-y-0 lg:gap-x-8">
@@ -66,7 +43,7 @@ export default function Team() {
                 <li key={person.name}>
                   <div className="space-y-4">
                     <div className="aspect-w-3 aspect-h-2">
-                      <Image className="object-cover shadow-lg rounded-lg" layout="fill" src={person.imageUrl} alt="" />
+                      <Image className="object-cover shadow-lg rounded-lg" loading="eager" priority="true" layout="fill" src={person.imageUrl} alt="" />
                     </div>
                     <div className="text-lg leading-6 font-medium space-y-1">
                       <h3>{person.name}</h3>
