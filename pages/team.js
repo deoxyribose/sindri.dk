@@ -28,7 +28,7 @@ export default function Team() {
       </Head>
       <div className="mx-auto py-12 px-4 max-w-7xl sm:px-6 lg:px-8 lg:py-24">
         <div className="space-y-12 lg:grid lg:grid-cols-3 lg:gap-8 lg:space-y-0">
-          <div className="flex flex-col">
+          <div className="flex flex-col space-y-4">
             <h2 className="flex-auto text-3xl font-extrabold tracking-tight sm:text-4xl">Kernen</h2>
             <p className="flex-auto text-xl text-gray-200">
               Siden november 2021 har vi arbejdet sammen om at levere dataløsninger til danske virksomheder og organisationer. Før det har vi oparbedjet en solid balast af erfaringer fra både danske og udenlandske virksomheder og NGO'er. Læs under
