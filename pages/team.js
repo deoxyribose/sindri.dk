@@ -19,7 +19,7 @@ const people = [
     twitterUrl: "https://twitter.com/dominik_zdyb",
     linkedinUrl: "https://www.linkedin.com/in/dzgreen/",
     imageUrl: "/dz.webp",
-    email: "dz@sindri.dk",
+    email: "mailto:dz@sindri.dk",
   },
 ];
 
