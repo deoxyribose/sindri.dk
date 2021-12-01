@@ -8,6 +8,7 @@ export default function Home() {
       <Head>
         <title>Sindri</title>
         <link rel="icon" href="/favicon.ico" />
+        <script defer data-domain="sindri.dk" src="https://plausible.io/js/plausible.js"></script>
       </Head>
 
       <div className="flex flex-col items-center justify-between w-full text-center px-4 space-y-10 text-gray-200 bg-gray-900 h-screen">
