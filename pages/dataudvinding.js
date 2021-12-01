@@ -1,4 +1,4 @@
-import Image from "next/image";
+// import Image from "next/image";
 import Head from "next/head";
 import Nav from "../components/Nav";
 
@@ -27,7 +27,7 @@ export default function blogpost() {
                 den ene eller anden grund ikke lige er til at arbejde med.{" "}
               </p>
               <div className="aspect-w-5 aspect-h-3">
-                <Image className="rounded-lg" src="/dataudvinding.png" layout="fill" />
+                <img className="rounded-lg" src="/dataudvinding.png" layout="fill" />
               </div>
 
               <p className="mt-8 text-xl leading-8 py-4">For at få befriet data fra gidslet, kan det være nødvendigt at bruge flere teknikker og ikke mindst være kreativ i brugen af dem. Her er de primære teknikker vi bruger:</p>
