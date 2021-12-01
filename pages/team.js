@@ -1,6 +1,8 @@
 import Head from "next/head";
 import Image from "next/image";
 import Nav from "../components/Nav";
+// import fz from "../public/fz.webp";
+// import dz from "../public/dz.webp";
 
 const people = [
   {
@@ -44,8 +46,8 @@ export default function Team() {
               {people.map((person) => (
                 <li key={person.name}>
                   <div className="space-y-4">
-                    <div className="aspect-w-3 aspect-h-2">
-                      <Image className="object-cover shadow-lg rounded-lg" loading="eager" priority="true" layout="fill" src={person.imageUrl} alt="" />
+                    <div className="aspect-w-3 aspect-h-2 relative">
+                      <Image className="object-cover shadow-lg rounded-lg" loading="eager" priority layout="fill" src={person.imageUrl} alt="" />
                     </div>
                     <div className="text-lg leading-6 font-medium space-y-1">
                       <h3>{person.name}</h3>
