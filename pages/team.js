@@ -21,15 +21,15 @@ const people = [
 
 export default function Team() {
   return (
-    <div className="bg-gray-900 text-gray-200 min-h-screen">
+    <div className="bg-gray-900 text-gray-200 min-h-screen px-4">
       <Head>
         <title>Sindri</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <Nav />
 
-      <div className="mx-auto py-12 px-4 max-w-7xl sm:px-6 lg:px-8 lg:py-24">
-        <div className="space-y-12 lg:grid lg:grid-cols-3 lg:gap-8 lg:space-y-0">
+      <div className="max-w-6xl mx-auto">
+        <Nav page="#" slug="" />
+        <div className="space-y-12 pt-24 lg:grid lg:grid-cols-3 lg:gap-8 lg:space-y-0">
           <div className="flex flex-col space-y-2">
             <h2 className="text-2xl font-bold tracking-tight pb-4">Team</h2>
             <p className="text-xl text-gray-200">

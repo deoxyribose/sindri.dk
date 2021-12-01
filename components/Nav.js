@@ -1,12 +1,11 @@
-import React from "react";
 import Link from "next/link";
 
-export default function Nav() {
+export default function Nav(props) {
   return (
-    <div className="mx-auto py-4 px-4 max-w-7xl sm:px-6 lg:px-8 lg:py-8">
+    <div className="mx-auto max-w-7xl bg-gray-900 pt-4">
       <nav>
         <div className="flex">
-          <ul className="flex items-center justify-between text-gray-200 bg-gray-900 w-full">
+          <ul className="flex items-center justify-between text-gray-200 w-full">
             <li>
               <div className="flex text-xl font-medium md:text-xl">
                 <Link href="/">
@@ -16,8 +15,8 @@ export default function Nav() {
             </li>
             <li>
               <div className="flex text-xl">
-                <Link href="/cases">
-                  <a className="flex">Cases</a>
+                <Link href={props.page}>
+                  <a className="flex">{props.slug}</a>
                 </Link>
               </div>
             </li>
