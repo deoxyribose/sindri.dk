@@ -4,7 +4,7 @@ import Nav from "../components/Nav";
 
 export default function blogpost() {
   return (
-    <div className="bg-gray-900 text-gray-200 min-h-screen px-4">
+    <div className="bg-gray-900 text-gray-200 min-h-screen px-4 pb-8">
       <Head>
         <title>Sindri</title>
         <link rel="icon" href="/favicon.ico" />
@@ -18,8 +18,8 @@ export default function blogpost() {
           <div className="relative sm:px-6 lg:px-8">
             <div className="prose text-gray-200 text-lg max-w-prose mx-auto">
               <h1>
-                <span className="block text-base text-center text-red-400 font-semibold tracking-wide uppercase">Dataudvinding</span>
-                <span className="mt-4 block text-3xl text-center leading-8 font-extrabold tracking-tight text-gray-200 sm:text-4xl">Er dine data spærret inde?</span>
+                <span className="block text-base text-center text-red-400 font-semibold tracking-wide uppercase"></span>
+                <span className="block text-3xl leading-8 font-extrabold tracking-tight text-gray-200 sm:text-4xl">Er dine data spærret inde?</span>
               </h1>
               <p className="mt-8 text-xl leading-8">
                 Frans og jeg er efterhånden blevet nogle garvede "data udvindere". Der kan gå helt sport i den, når data skal befries fra en kilde som ikke har en udlæsningsfunktion eller hvor formatet er låst, så som billeder og pdf. Nogen
@@ -41,9 +41,8 @@ export default function blogpost() {
               </ul>
 
               <p className="mt-8 text-xl leading-8 py-4">Vi har samlet et par eksempler på dataudvinding vi har beskæftiges os med gennem tiderne: </p>
-
-              <table className="border-2 border-gray-500">
-                <div className="p-2">
+              <div className="border-2 p-2 border-gray-500 overflow-x-auto">
+                <table>
                   <thead>
                     <tr className="text-gray-200">
                       <th>Produkt</th>
@@ -84,8 +83,8 @@ export default function blogpost() {
                       <td>Excel</td>
                     </tr>
                   </tbody>
-                </div>
-              </table>
+                </table>
+              </div>
 
               <p>
                 Har du brug for at vores hjælp til data udvinding? Måske som led i en større digital transformation? Så ring eller skriv til 61 99 82 35,{" "}

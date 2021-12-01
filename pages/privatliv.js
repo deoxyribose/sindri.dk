@@ -9,27 +9,26 @@ export default function blogpost() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main className="max-w-6xl mx-auto">
+      <div className="max-w-6xl mx-auto">
         <Nav page="#" slug="" />
 
-        <div className="relative py-16 overflow-hidden bg-fray-900 text-gray-200">
+        <div className="relative py-16 overflow-hidden bg-gray-900 text-gray-200">
           <div className="hidden lg:block lg:absolute lg:inset-y-0 lg:h-full lg:w-full"></div>
           <div className="relative sm:px-6 lg:px-8">
             <div className="prose text-gray-200 text-lg max-w-prose mx-auto">
               <h1>
                 <span className="block text-base text-center text-red-400 font-semibold tracking-wide uppercase"></span>
-                <span className="block text-3xl leading-8 font-extrabold tracking-tight text-gray-200 sm:text-4xl">Forklarlig machine learning</span>
+                <span className="block text-3xl leading-8 font-extrabold tracking-tight text-gray-200 sm:text-4xl">Privatliv</span>
               </h1>
               <p className="mt-8 text-xl leading-8">
-                Machine learning (ML) er for alvor trængt ind i danske virksomheder og institutiuoner. Der er mange anvendelser og udbyttet kan være stort. Denne artikkel forklarer et bestemt problem der er forbundet med at bruge ml-modeller som
-                beslutningsredskab - vi kan ikke forklare hvordan modellen kom frem til sit resultat. Det kan være et problem i forhold til diskrimination og GDPR.
+                Vi kan ikke lide overvågning, tracking og pop-up beskeder. Derfor tracker vi dig ikke og vi forstyrre dig ikke med cookies på denne hjemmeside. Vi ved stadig hvor mange besøgende vi får og hvor de klikker, men vi ikke noget om dem.
               </p>
 
-              <p className="mt-8 text-xl leading-8">Work in progress...</p>
+              <p className="mt-8 text-xl leading-8">Så ingen "nødvendige" cookies herfra &#9996;</p>
             </div>
           </div>
         </div>
-      </main>
+      </div>
     </div>
   );
 }

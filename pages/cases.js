@@ -22,7 +22,7 @@ const posts = [
 
 export default function () {
   return (
-    <div className="bg-gray-900 text-gray-200 min-h-screen px-4">
+    <div className="bg-gray-900 text-gray-200 min-h-screen px-4  pb-8">
       <Head>
         <title>Sindri - </title>
         <link rel="icon" href="/favicon.ico" />
@@ -34,7 +34,7 @@ export default function () {
           <div>
             <h2 className="text-3xl tracking-tight font-extrabold sm:text-4xl"></h2>
             <div className="mt-3 sm:mt-4 lg:grid lg:grid-cols-2 lg:gap-5 lg:items-center">
-              <p className="text-4xl">Her beskriver vi hvilke services vi er særligt gode til.</p>
+              <p className="text-4xl text-green-400">Her beskriver vi hvilke services vi er særligt gode til.</p>
             </div>
           </div>
           <div className="mt-6 pt-10 grid gap-16 lg:grid-cols-2 lg:gap-x-5 lg:gap-y-12">
@@ -44,11 +44,11 @@ export default function () {
                   <time dateTime={post.datetime}>{post.date}</time>
                 </p>
                 <a href={post.href} className="mt-2 block">
-                  <p className="text-xl font-semibold text-gray-200">{post.title}</p>
+                  <p className="text-xl text-red-400 font-semibold">{post.title}</p>
                   <p className="mt-3 text-base">{post.description}</p>
                 </a>
                 <div className="mt-3">
-                  <a href={post.href} className="text-base font-semibold hover:text-white">
+                  <a href={post.href} className="text-base text-yellow-400 font-semibold hover:text-white">
                     Læs mere
                   </a>
                 </div>
