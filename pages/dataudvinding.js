@@ -16,7 +16,7 @@ export default function blogpost() {
         <div className="relative py-16 overflow-hidden bg-gray-900 text-gray-200 min-h-screen">
           <div className="hidden lg:block lg:absolute lg:inset-y-0 lg:h-full lg:w-full"></div>
           <div className="relative sm:px-6 lg:px-8">
-            <div className="text-lg max-w-prose mx-auto">
+            <div className="prose text-gray-200 text-lg max-w-prose mx-auto">
               <h1>
                 <span className="block text-base text-center text-red-400 font-semibold tracking-wide uppercase">Dataudvinding</span>
                 <span className="mt-4 block text-3xl text-center leading-8 font-extrabold tracking-tight text-gray-200 sm:text-4xl">Er dine data spærret inde?</span>
@@ -42,47 +42,49 @@ export default function blogpost() {
 
               <p className="mt-8 text-xl leading-8 py-4">Vi har samlet et par eksempler på dataudvinding vi har beskæftiges os med gennem tiderne: </p>
 
-              <table>
-                <thead>
-                  <tr className="text-gray-200">
-                    <th>Produkt</th>
-                    <th>Gidsel</th>
-                    <th>Teknik</th>
-                    <th>Destination</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr>
-                    <td>Satspuljen</td>
-                    <td>PDF</td>
-                    <td>Scraping med R</td>
-                    <td>Excel</td>
-                  </tr>
-                  <tr>
-                    <td>Bilagsklassifikation</td>
-                    <td>Blandet pdf, billede, email</td>
-                    <td>Scraping med R kombineret med opslag i cvr registeret og dansk adresseregister</td>
-                    <td>E-conomic økonomisystem</td>
-                  </tr>
-                  <tr>
-                    <td>Automatisering af menneske-computer interaktion</td>
-                    <td>Et virvar af programmer</td>
-                    <td>Skærmoptager programmeret med Julia</td>
-                    <td>SQLite</td>
-                  </tr>
-                  <tr>
-                    <td>Offentlige data til modellering som kun er tilgængelige via web applikation eller pdf</td>
-                    <td>App</td>
-                    <td>Scraping med python og javascript</td>
-                    <td>CSV filer</td>
-                  </tr>
-                  <tr>
-                    <td>Gample pakke labels</td>
-                    <td>Billeder</td>
-                    <td>Scraping med R</td>
-                    <td>Excel</td>
-                  </tr>
-                </tbody>
+              <table className="border-2 border-gray-500">
+                <div className="p-2">
+                  <thead>
+                    <tr className="text-gray-200">
+                      <th>Produkt</th>
+                      <th>Gidsel</th>
+                      <th>Teknik</th>
+                      <th>Destination</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>Satspuljen</td>
+                      <td>PDF</td>
+                      <td>Scraping med R</td>
+                      <td>Excel</td>
+                    </tr>
+                    <tr>
+                      <td>Bilagsklassifikation</td>
+                      <td>Blandet pdf, billede, email</td>
+                      <td>Scraping med R kombineret med opslag i cvr registeret og dansk adresseregister</td>
+                      <td>E-conomic økonomisystem</td>
+                    </tr>
+                    <tr>
+                      <td>Automatisering af menneske-computer interaktion</td>
+                      <td>Et virvar af programmer</td>
+                      <td>Skærmoptager programmeret med Julia</td>
+                      <td>SQLite</td>
+                    </tr>
+                    <tr>
+                      <td>Offentlige data til modellering som kun er tilgængelige via web applikation eller pdf</td>
+                      <td>App</td>
+                      <td>Scraping med python og javascript</td>
+                      <td>CSV filer</td>
+                    </tr>
+                    <tr>
+                      <td>Gample pakke labels</td>
+                      <td>Billeder</td>
+                      <td>Scraping med R</td>
+                      <td>Excel</td>
+                    </tr>
+                  </tbody>
+                </div>
               </table>
 
               <p>
