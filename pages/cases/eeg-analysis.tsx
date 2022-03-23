@@ -24,7 +24,7 @@ export default function Post({ post }) {
           <p>
             I performed large scale EEG analysis in collaboration with HypoSafe
             (now{" "}
-            <a href="https://www.uneeg.com/" target="_blank">
+            <a href="https://www.uneeg.com/" target="_blank" rel="noreferrer">
               UNEEG
             </a>{" "}
             ), using TensorFlow, which involved training generative models to
