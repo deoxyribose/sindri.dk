@@ -1,0 +1,2 @@
+User-agent: *
+Sitemap: https://sindri.dk/sitemap.xml
