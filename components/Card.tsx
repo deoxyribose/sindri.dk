@@ -6,10 +6,10 @@ export default function Card(props) {
       <div className="flex w-full items-center ">
         <span className="relative inline-block aspect-square h-16 w-16 md:h-24 md:w-24">
           <Image
+            priority={true}
             alt={props.alt}
             src={props.src}
             layout="fill"
-            priority
             className="rounded-full"
           />
         </span>
