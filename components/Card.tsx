@@ -1,4 +1,3 @@
-import Obfuscate from "react-obfuscate"
 import Image from "next/image"
 
 export default function Card(props) {
@@ -13,7 +12,6 @@ export default function Card(props) {
             priority
             className="rounded-full"
           />
-          {/* <span className="absolute bottom-2 right-2 block h-2 w-2 rounded-full bg-red-400 ring-2 ring-white" /> */}
         </span>
 
         <div className="flex flex-col justify-center p-4">
