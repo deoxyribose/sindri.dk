@@ -16,6 +16,7 @@ export default function Post({ post }) {
             width={24}
             src="/dz.jpg"
             className="rounded-full"
+            priority
           />
           <p className="ml-2 text-sm text-gray-400 dark:text-gray-500">
             {"Domnik Zdyb / 2012 - 2022"}

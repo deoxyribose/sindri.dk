@@ -15,6 +15,7 @@ export default function Post({ post }) {
             width={24}
             src="/fz.jpg"
             className="rounded-full"
+            priority
           />
           <p className="ml-2 text-sm text-gray-400 dark:text-gray-500">
             {"Frans Zdyb / 2011 - 2012"}
