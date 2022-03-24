@@ -5,7 +5,6 @@ import { useTheme } from "next-themes"
 import NextLink from "next/link"
 import cn from "classnames"
 import Footer from "components/Footer"
-
 import MobileMenu from "components/MobileMenu"
 
 function NavItem({ href, text }) {
@@ -67,6 +66,12 @@ export default function Container(props) {
           <meta name="twitter:title" content={meta.title} />
           <meta name="twitter:description" content={meta.description} />
           <meta name="twitter:image" content={meta.image} />
+          <script
+            defer
+            data-domain="sindri.dk"
+            src="https://plausible.io/js/plausible.js"
+          ></script>
+
           {meta.date && (
             <meta property="article:published_time" content={meta.date} />
           )}

@@ -1,6 +1,4 @@
-import Image from "next/image"
 import Container from "../components/Container"
-import ReactTooltip from "react-tooltip"
 
 export default function Values({ values }) {
   return (
@@ -27,19 +25,7 @@ export default function Values({ values }) {
               To be honest we hate hourly billing. We want to be different here.
               Let's talk about other billing models enforcing accountability.
             </li>
-            <li>
-              You may not need an expensive data warehouse.&nbsp;
-              <span
-                className="underline decoration-dashed"
-                data-tip
-                data-for="database"
-              >
-                Kiss 💋
-              </span>{" "}
-              <ReactTooltip className="max-w-xs" id="database">
-                <span>Keep it simple, stupid.</span>
-              </ReactTooltip>
-            </li>
+            <li>You may not need an expensive data warehouse.</li>
             <li>
               We give discounts. We call it bro bono. It means we can be talked
               into working for a good cause or if we find the product really

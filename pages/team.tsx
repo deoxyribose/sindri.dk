@@ -1,7 +1,5 @@
 import Container from "components/Container"
 import Card from "components/Card"
-import Tag from "components/Tag"
-import Skill from "components/Skill"
 
 export default function Team({ team }) {
   return (

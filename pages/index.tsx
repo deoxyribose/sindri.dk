@@ -1,7 +1,6 @@
 import Container from "../components/Container"
 import Skill from "components/Skill"
 import Link from "next/link"
-import ReactTooltip from "react-tooltip"
 
 export default function Home({ home }) {
   return (
@@ -37,21 +36,11 @@ export default function Home({ home }) {
         <ul>
           <Skill title="Data engineering">
             If your data is spread accros multiple systems, making it hard to
-            conduct reporting and analysis, we can help with creating a{" "}
-            <span
-              className="underline decoration-dashed"
-              data-tip
-              data-for="database"
-            >
-              single source of truth
-            </span>{" "}
-            <ReactTooltip className="max-w-xs" id="database">
-              <span>Think cloud / database.</span>
-            </ReactTooltip>
-            for all your data. This step is the foundation for further analysis
-            and reporting. We advice about pros and cons of different solutions
-            - also when it means pointing you in a direction that is not
-            profitable for us.
+            conduct reporting and analysis, we can help with creating a single
+            source of truth for all your data. This step is the foundation for
+            further analysis and reporting. We advice about pros and cons of
+            different solutions - also when it means pointing you in a direction
+            that is not profitable for us.
           </Skill>
           <Skill title="Data science">
             This is all about understanding the structure of the data. We have a
