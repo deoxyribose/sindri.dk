@@ -1,7 +1,5 @@
 import Container from "components/Container"
 import Card from "components/Card"
-import dz from "../public/dz.jpg"
-import fz from "../public/fz.jpg"
 
 export default function Team({ team }) {
   return (
@@ -14,7 +12,7 @@ export default function Team({ team }) {
           <Card
             title={"Frans Zdyb"}
             subtitle={"Data scientist"}
-            src={fz}
+            src={"fz.jpg"}
             alt={"Picture of Frans"}
           >
             <div className="prose max-w-none">
@@ -75,7 +73,7 @@ export default function Team({ team }) {
           <Card
             title={"Dominik Zdyb"}
             subtitle={"Data engineer & Analyst"}
-            src={dz}
+            src={"dz.jpg"}
             alt={"Picture of Dominik"}
           >
             <div className="prose max-w-none">
