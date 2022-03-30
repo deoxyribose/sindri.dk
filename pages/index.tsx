@@ -24,33 +24,29 @@ export default function Home({ home }) {
               <p className="text-gray-600 dark:text-gray-400">
                 We are a two-person team spacializing in data engineering, data
                 science and decision support. We have experience working with a
-                variety of customers and freelance as part of your analytics
-                team.
+                variety of customers and as freelancers joining your team.
               </p>
             </div>
           </div>
         </div>
-        <h3 className="mb-4 mt-8 text-2xl font-bold tracking-tight text-black dark:text-white md:text-4xl">
+        <h3 className="mb-4 mt-8 text-2xl font-bold tracking-tight text-black dark:text-white md:text-3xl">
           Services
         </h3>
         <ul>
           <Skill title="Data engineering">
             If your data is spread accros multiple systems, making it hard to
             conduct reporting and analysis, we can help with creating a single
-            source of truth for all your data. This step is the foundation for
-            further analysis and reporting. We advice about pros and cons of
+            source of truth for all your data. We advice about pros and cons of
             different solutions - also when it means pointing you in a direction
             that is not profitable for us.
           </Skill>
           <Skill title="Data science">
-            This is all about understanding the structure of the data. We have a
-            phd level knowledge of methods and novel techniques, but that can
-            rarely stand alone. The better we understand the domain, the better
-            we can help. This is why collaboration with domain experts is
-            crucial.
+            This is all about understanding the structure of the data. We thrive
+            when we can implement the right methods in collaboration with domain
+            experts - probably you.
           </Skill>
           <Skill title="Decision support">
-            This is what you ultimately see - reports, dashboards and results.{" "}
+            This is what you ultimately see - reports, dashboards and KPI's.
           </Skill>
         </ul>
 

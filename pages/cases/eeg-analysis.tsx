@@ -1,5 +1,6 @@
 import Container from "../../components/Container"
 import Image from "next/image"
+import Link from "next/link"
 
 export default function Post({ post }) {
   return (
@@ -30,10 +31,30 @@ export default function Post({ post }) {
             </a>{" "}
             ), using TensorFlow, which involved training generative models to
             perform outlier detection, dimensionality reduction, noise and
-            artifact removal and digital signal processing.
+            artifact removal and digital signal processing.{" "}
           </p>
         </div>
-
+        <Link href="/cases">
+          <a className="pt-8 text-sm font-light text-gray-400 dark:text-gray-500">
+            <div className="flex items-center">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                className="mr-1 h-4 w-4"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+                strokeWidth="2"
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  d="M11 17l-5-5m0 0l5-5m-5 5h12"
+                />
+              </svg>
+              back to cases
+            </div>
+          </a>
+        </Link>
         <span className="h-16" />
       </div>
     </Container>

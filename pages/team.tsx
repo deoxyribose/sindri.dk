@@ -16,7 +16,7 @@ export default function Team({ team }) {
             alt={"Picture of Frans"}
           >
             <div className="prose max-w-none">
-              <h4 className="font-medium text-gray-900 dark:text-gray-100">
+              <h4 className="text-lg font-medium text-gray-900 dark:text-gray-100">
                 About
               </h4>
               <p className="-mt-4 text-gray-600 dark:text-gray-400">
@@ -27,7 +27,7 @@ export default function Team({ team }) {
                 translating business needs to engineering solutions.
               </p>
 
-              <h4 className="font-medium text-gray-900 dark:text-gray-100">
+              <h4 className="text-lg font-medium text-gray-900 dark:text-gray-100">
                 Technologies
               </h4>
               <div className="space-y-4 leading-7 text-gray-600 dark:text-gray-400">
@@ -72,19 +72,19 @@ export default function Team({ team }) {
           </Card>
           <Card
             title={"Dominik Zdyb"}
-            subtitle={"Data engineer & Analyst"}
+            subtitle={"Data engineer & analyst"}
             src={"dz.jpg"}
             alt={"Picture of Dominik"}
           >
             <div className="prose max-w-none">
-              <h4 className="font-medium text-gray-900 dark:text-gray-100">
+              <h4 className="text-lg font-medium text-gray-900 dark:text-gray-100">
                 About
               </h4>
               <p className="prose -mt-4 max-w-none leading-6 text-gray-600 dark:text-gray-400">
                 Economist with strong IT skills. Experienced in configuring
                 cloud computing services, system integration and data migration.
               </p>
-              <h4 className="font-medium  text-gray-900 dark:text-gray-100">
+              <h4 className="text-lg font-medium text-gray-900 dark:text-gray-100">
                 Technologies
               </h4>
               <div className="space-y-4 leading-7 text-gray-600 dark:text-gray-400">
@@ -93,7 +93,7 @@ export default function Team({ team }) {
                     Languages:
                   </div>
                   <div className="text-sm md:w-4/5 md:text-base">
-                    Python, R, SQL, JavaScript, HTML, CSS
+                    R, Python, SQL, JavaScript, HTML, CSS
                   </div>
                 </div>
                 <div className="flex flex-col md:flex-row">
@@ -110,7 +110,7 @@ export default function Team({ team }) {
                   </div>
                   <div className="text-sm md:w-4/5 md:text-base">
                     Accounting, survey design, data visualisation, web
-                    developement, REST-API's.
+                    developement, API's.
                   </div>
                 </div>
               </div>
