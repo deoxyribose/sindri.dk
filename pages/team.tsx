@@ -93,16 +93,14 @@ export default function Team({ team }) {
                     Languages:
                   </div>
                   <div className="text-sm md:w-4/5 md:text-base">
-                    R, Python, SQL, JavaScript, HTML, CSS
+                    R, Python, JavaScript, HTML, CSS
                   </div>
                 </div>
                 <div className="flex flex-col md:flex-row">
                   <div className="font-medium dark:text-gray-400 md:w-1/5 md:font-normal">
                     Frameworks:
                   </div>
-                  <div className="text-sm md:w-4/5 md:text-base">
-                    Tidyverse, ggplot2, Pandas, Git, Docker, Azure, AWS.
-                  </div>
+                  <div className="text-sm md:w-4/5 md:text-base">Git, AWS.</div>
                 </div>
                 <div className="flex flex-col md:flex-row">
                   <div className="font-medium dark:text-gray-400 md:w-1/5 md:font-normal">
