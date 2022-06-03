@@ -23,16 +23,9 @@ export default function Values({ values }) {
         </h4>
         <p className="prose max-w-none leading-6 text-gray-600 dark:text-gray-400">
           <ul>
-            <li>
-              To be honest we hate hourly billing. We want to be different here.
-              Let's talk about other billing models enforcing accountability.
-            </li>
-            <li>You may not need an expensive data warehouse.</li>
-            <li>
-              We give discounts. We call it bro bono. It means we can be talked
-              into working for a good cause or if we find the product really
-              exciting. Cheap: yes. free: no.
-            </li>
+            <li>hourly billing.</li>
+            <li>Costly overengineering.</li>
+            <li>High prices for small jobs.</li>
           </ul>
         </p>
 
