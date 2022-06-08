@@ -24,7 +24,7 @@ export default function Values({ values }) {
         <p className="prose max-w-none leading-6 text-gray-600 dark:text-gray-400">
           <ul>
             <li>hourly billing.</li>
-            <li>Costly overengineering.</li>
+            <li>Overengineering.</li>
             <li>High prices for small jobs.</li>
           </ul>
         </p>

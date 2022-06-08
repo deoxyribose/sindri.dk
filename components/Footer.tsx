@@ -8,9 +8,9 @@ export default function Footer() {
         <hr className="border-1 w-full border-gray-200 dark:border-gray-800" />
         <div className="w-full max-w-2xl py-2">
           <div className="flex justify-center space-x-4 text-sm">
-            <Link href="/values">
+            <Link href="/anti-values">
               <a className="text-gray-600 transition hover:underline dark:text-gray-400">
-                Values
+                Anti-values
               </a>
             </Link>
             <Link href="/privacy">

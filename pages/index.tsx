@@ -14,7 +14,7 @@ export default function Home({ home }) {
                   Sindri
                 </h1>
 
-                <h2 className="text-lg font-semibold tracking-tight text-black dark:bg-gradient-to-r dark:from-blue-500 dark:to-red-500 dark:bg-clip-text dark:text-transparent md:text-xl">
+                <h2 className="text-lg font-semibold tracking-tight text-black dark:text-gray-200 md:text-xl">
                   Data analysis on demand{" "}
                 </h2>
               </div>
@@ -24,7 +24,7 @@ export default function Home({ home }) {
               <p className="text-gray-600 dark:text-gray-400">
                 We are a two-person team spacializing in data engineering, data
                 science and decision support. We have experience working with a
-                variety of customers and as freelancers joining your team.
+                variety of companies and non-profits around the globe.
               </p>
             </div>
           </div>
@@ -35,18 +35,23 @@ export default function Home({ home }) {
         <ul>
           <Skill title="Data engineering">
             If your data is spread accros multiple systems, making it hard to
-            conduct reporting and analysis, we can help with creating a single
-            source of truth for all your data. We advice about pros and cons of
+            conduct reporting and analysis, we can help creating a single source
+            of truth for all your data. We advice about pros and cons of
             different solutions - also when it means pointing you in a direction
             that is not profitable for us.
           </Skill>
           <Skill title="Data science">
             This is all about understanding the structure of the data. We thrive
             when we can implement the right methods in collaboration with domain
-            experts - probably you.
+            experts - probably you. We have experience in deploying cutting edge
+            machine learning models, but sometimes a couple of good
+            visualisations is enough to get a better understandging of your
+            business case.
           </Skill>
           <Skill title="Decision support">
-            This is what you ultimately see - reports, dashboards and KPI's.
+            This is what you ultimately see - reports, dashboards and KPI's. We
+            can implement common dashboaring solutions such as Power BI or even
+            custom solutions.
           </Skill>
         </ul>
 
