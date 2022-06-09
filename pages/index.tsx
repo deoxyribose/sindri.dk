@@ -57,8 +57,9 @@ export default function Home({ home }) {
 
         <div className="prose max-w-none leading-6 text-gray-600 dark:text-gray-400">
           <p className="text-gray-700 dark:text-gray-400">
-            Often what we do, does not fit neatly into one of these 3
-            categories. Take a look at{" "}
+            So the three bullet points are respectively about storage, analysis
+            and presentation, but often what we do, does not fit neatly into one
+            of these 3 categories. Take a look at{" "}
             <Link href="/cases">
               <a>cases</a>
             </Link>{" "}
