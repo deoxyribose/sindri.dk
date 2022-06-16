@@ -100,15 +100,17 @@ export default function Team({ team }) {
                   <div className="font-medium dark:text-gray-400 md:w-1/5 md:font-normal">
                     Frameworks:
                   </div>
-                  <div className="text-sm md:w-4/5 md:text-base">Git, AWS.</div>
+                  <div className="text-sm md:w-4/5 md:text-base">
+                    Git, AWS, Azure, Databricks
+                  </div>
                 </div>
                 <div className="flex flex-col md:flex-row">
                   <div className="font-medium dark:text-gray-400 md:w-1/5 md:font-normal">
                     Methods:
                   </div>
                   <div className="text-sm md:w-4/5 md:text-base">
-                    Accounting, survey design, data visualisation, web
-                    developement, API's.
+                    Forecasting, churn analysis, CI/CD, survey design, data
+                    visualisation, web developement, API's, accounting
                   </div>
                 </div>
               </div>
