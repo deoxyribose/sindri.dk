@@ -71,7 +71,7 @@ export default function Team({ team }) {
             </div>
           </Card>
           <Card
-            title={"Dominik Zdyb"}
+            title={"Dominik Lillemæhlum"}
             subtitle={"Data engineer & analyst"}
             src={"dz.jpg"}
             alt={"Picture of Dominik"}
