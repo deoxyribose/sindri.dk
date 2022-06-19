@@ -20,9 +20,9 @@ module.exports = {
           900: "#111111",
         },
       },
-      fontFamily: {
-        sans: ["IBM Plex Sans", ...fontFamily.sans],
-      },
+      // fontFamily: {
+      //   sans: ["IBM Plex Sans", ...fontFamily.sans],
+      // },
       animation: {
         myping: "pulse 2s ease-in-out infinite",
       },
