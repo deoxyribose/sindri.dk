@@ -10,24 +10,24 @@ export default function Values({ values }) {
         <h4 className="pt-4 font-medium text-gray-900 dark:text-gray-100">
           Bullshit 🐂 💩
         </h4>
-        <p className="prose max-w-none leading-6 text-gray-600 dark:text-gray-400">
-          <ul>
+        <div className="prose max-w-none">
+          <ul className="text-gray-600 dark:text-gray-400">
             <li>Excessive marketing</li>
             <li>Buzzwords</li>
             <li>Speaking so generally that it almost make no sense</li>
           </ul>
-        </p>
+        </div>
 
         <h4 className="pt-4 font-medium text-gray-900 dark:text-gray-100">
           Rent-seeking 💰
         </h4>
-        <p className="prose max-w-none leading-6 text-gray-600 dark:text-gray-400">
-          <ul>
+        <div className="prose max-w-none">
+          <ul className="leading-6 text-gray-600 dark:text-gray-400">
             <li>hourly billing.</li>
             <li>Overengineering.</li>
             <li>High prices for small jobs.</li>
           </ul>
-        </p>
+        </div>
 
         <span className="h-16" />
       </div>

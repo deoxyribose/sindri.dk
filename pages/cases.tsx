@@ -25,13 +25,6 @@ export default function Cases({ cases }) {
         </div>
         <div className="mt-12 grid grid-cols-1 gap-x-6 gap-y-12 sm:grid-cols-2">
           <Case
-            title="Smart Grid Optimization"
-            slug="smart-grid-optimization"
-            description="Developing electricity demand prediction and load balancing
-            algorithms for smart grids in the US, Europe and Africa."
-            icon={<ViewGridAddIcon />}
-          />
-          <Case
             title="Keyword clustering"
             slug="keyword-clustering"
             description="Developing a SERP based clustering tool in Python and Neo4j for a
@@ -51,12 +44,7 @@ export default function Cases({ cases }) {
             description="Large scale EEG analysis in collaboration with HypoSafe (now UNEEG)"
             icon={<LightningBoltIcon />}
           />
-          <Case
-            title="AutoML"
-            slug="automl"
-            description="Developing an AutoML system for unsupervised learning, based on compositional model search for Bayesian networks and black-box variational inference."
-            icon={<CogIcon />}
-          />
+
           <Case
             title="Web applications"
             slug="web-applications"
