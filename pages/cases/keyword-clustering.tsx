@@ -24,6 +24,10 @@ export default function Post({ post }) {
         </div>
         <div className="prose max-w-none leading-6 text-gray-600 dark:text-gray-400">
           <p>
+            A keyword clustering tool (...) compares the TOP 10 search result listings that showed up for the taken keyword to the TOP10 search results that showed up for another keyword to detect the number of matching URLs. At the same time, a tool compares all keywords to each other and all matching URLs in the detected pairs. If the detected number of identical search listings matches the selected grouping level, the keywords are grouped together.
+
+            As the result, all keywords within a group will be related to each other by having the same matching URLs.(From https://en.wikipedia.org/wiki/Keyword_clustering#Hard)
+            
             Developed a SERP based clustering tool in Python and Neo4j for a
             Canadian customer. This involved developing a novel dynamic
             programming algorithm for solving the NP-complete maximum clique
