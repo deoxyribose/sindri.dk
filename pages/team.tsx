@@ -96,21 +96,14 @@ export default function Team({ team }) {
                     R, Python, JavaScript, HTML, CSS
                   </div>
                 </div>
+
                 <div className="flex flex-col md:flex-row">
                   <div className="font-medium dark:text-gray-400 md:w-1/5 md:font-normal">
-                    Frameworks:
+                    Frameworks and methods:
                   </div>
                   <div className="text-sm md:w-4/5 md:text-base">
-                    Git, AWS, Azure, Databricks
-                  </div>
-                </div>
-                <div className="flex flex-col md:flex-row">
-                  <div className="font-medium dark:text-gray-400 md:w-1/5 md:font-normal">
-                    Methods:
-                  </div>
-                  <div className="text-sm md:w-4/5 md:text-base">
-                    Forecasting, churn analysis, CI/CD, survey design, data
-                    visualisation, web developement, API's, accounting
+                    Git, AWS, Forecasting, churn analysis, CI/CD, survey design,
+                    data visualisation, web developement, API's, accounting
                   </div>
                 </div>
               </div>
